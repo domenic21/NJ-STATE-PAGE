@@ -1,11 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- icons and bootsrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- link css pages specific -->
+    <link rel="stylesheet" href="./pageStyle.css" />
+    <title>City of Newark Official</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <!-- tittle -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- click logo NJ to go back to main -->
+        <a class="navbar-brand" href="../index.html">
+          <img
+            src="../assets/nj.png"
+            alt="Logo"
+            width="50"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <h1>City of Newark</h1>
+        <!-- menu bar -->
+        <div
+          class="navbar"
+          style="
+            width: 50%;
+            height: 100%;
+            background: rgba(183.16, 7.17, 7.17, 0.75);
+            border-radius: 25px;
+          "
+        >
+          <div class="dropdown-center">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Departments
+            </button>
+            <!-- click to go back to main "new jersey state option" -->
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="../index.html"
+                  >New Jersey State</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">Attorney General</a></li>
+              <li><a class="dropdown-item" href="#">All deparments</a></li>
+            </ul>
+          </div>
+          <div>News</div>
+          <div>Events</div>
+          <div class="dropdown-center">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Residents
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Libraries</a></li>
+              <li><a class="dropdown-item" href="#">Health services</a></li>
+              <li>
+                <!-- click for contact us page -->
+                <a class="dropdown-item" href="../contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div style="padding-right: 50px">Mayor</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <section>
+      <div class="image-container">
+        <img
+          style="width: 100%; height: 467px; border-radius: 6px"
+          src="../assets/newark.png"
+        />
+      </div>
+    </section>
+
+    <div class="grid-Container">
+      <article>
+        <!-- click to contact page -->
+        <div class="vstack gap-3">
+          <div class="p-2"><a href="../contact.html">Contact Us</a></div>
+          <div class="p-2"><a href="">Mayor's Office</a></div>
+          <div class="p-2"><a href="">City Services</a></div>
+        </div>
+      </article>
+      <div>
+        <!--   the city’s population
+
+  the year the city was incorporated
+
+  the region of the state in which the city is located
+
+the classification of the city: urban, suburban, and/or rural
+
+ the average income level of the city compared to the rest of the state -->
+        <h2>History</h2>
+
+        <div class="p-2">
+          Newark is the most populous city in the U.S. state of New Jersey, the
+          seat of Essex County, and a principal city of the New York
+          metropolitan area. As of the 2020 census,
+          <span> the city's population was 311,549.</span> The Population
+          Estimates Program calculated a population of 305,344 for 2022, making
+          it the 66th-most populous municipality in the nation. <br />
+          <span>Settled in 1666 </span> by Puritans from New Haven Colony,
+          Newark is one of the oldest cities in the United States. Its location
+          at the mouth of the Passaic River, where it flows into Newark Bay, has
+          made the city's waterfront an integral part of the Port of New York
+          and New Jersey. Port Newark–Elizabeth is the primary container
+          shipping terminal of the busiest seaport on the U.S. East Coast.
+          Newark Liberty International Airport was the first municipal
+          commercial airport in the United States and has become one of the
+          busiest
+          <br />
+          The U.S. Census Bureau's 2006–2010 American Community Survey showed
+          that (in 2010 inflation-adjusted dollars)
+          <span> median household income was $35,659 </span> (with a margin of
+          error of +/- $1,009) and the median family income was $41,684 (+/-
+          $1,116). Males had a median income of $34,350 (+/- $1,015) versus
+          $32,865 (+/- $973) for females. The per capita income for the township
+          was $17,367 (+/- $364). About 22% of families and 25% of the
+          population were below the poverty line, including 34.9% of those under
+          age 18 and 22.4% of those age 65 or over Newark is a city in New
+          Jersey with a population of 306,247. Newark is in Essex County. Living
+          in Newark offers residents an <span>urban suburban </span> mix feel and most
+          residents rent their homes
+        </div>
+      </div>
+    </div>
+    <h3>Best Destinations</h3>
+    <div class="list-destinations">
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item"> Newark Museum of Art</li>
+        <li class="list-group-item">The Grammy Museum Experience</li>
+        <li class="list-group-item">Newark Symphony Hall</li>
+      </ol>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container py-4">
+        <div class="row py-4">
+          <div class="col-lg-4">
+            <h4>Newark</h4>
+            <p class="py-4">
+              "" The largest city in New Jersey and the second largest in the
+              New York Metropolitan area, Newark is known as both the “Brick
+              City”
+            </p>
+            <section class="social">
+              <ul class="list-unstyled d-flex">
+                <!-- open link other tab -->
+                <a
+                  class="social bi bi-facebook px-2"
+                  href="https://www.facebook.com/NJGov/"
+                  target="_blank"
+                ></a>
+              </ul>
+            </section>
+          </div>
+          <div class="col-lh-3 0ffset col-md-3 col-sm-4 col-11 mb-2">
+            <h5 class="pb-4 d-sm-block">QUICK LINKS</h5>
+            <p class="link"><i class="bi bi-arrow-right-short"></i> About Us</p>
+            <p class="link"><i class="bi bi-arrow-right-short"></i> FAQ</p>
+            <p class="link">
+              <i class="bi bi-arrow-right-short"></i> Privacy policy
+            </p>
+            <p class="link">
+              <i class="bi bi-arrow-right-short"></i> Terms & Conditions
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="pb-4 d-sm-block">CONTACT US</h5>
+            <p class="pt-2">
+              <i class="bi bi-envelope-at"></i> informationNj@gov.com
+            </p>
+            <!-- FLOAT PROPERTY ELEMENT -->
+            <img
+              style="float: right"
+              height="100px"
+              src="../assets/greyNJ.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+        <p>© 2024 Domenic Arias, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

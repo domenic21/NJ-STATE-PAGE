@@ -1,11 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- icons and bootsrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- link css pages specific -->
+    <link rel="stylesheet" href="./pageStyle.css" />
+    <title>Trenton Official</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <!-- tittle -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- click logo NJ to go back to main -->
+        <a class="navbar-brand" href="../index.html">
+          <img
+            src="../assets/nj.png"
+            alt="Logo"
+            width="50"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <h1>Capital of the State of New Jersey - Trenton</h1>
+        <!-- menu bar -->
+        <div
+          class="navbar"
+          style="
+            width: 50%;
+            height: 100%;
+            background: rgba(183.16, 7.17, 7.17, 0.75);
+            border-radius: 25px;
+          "
+        >
+          <div class="dropdown-center">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Departments
+            </button>
+            <!-- click to go back to main "new jersey state option" -->
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="../index.html"
+                  >New Jersey State</a
+                >
+              </li>
+              <li><a class="dropdown-item" href="#">Attorney General</a></li>
+              <li><a class="dropdown-item" href="#">All deparments</a></li>
+            </ul>
+          </div>
+          <div>News</div>
+          <div>Events</div>
+          <div class="dropdown-center">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Residents
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Libraries</a></li>
+              <li><a class="dropdown-item" href="#">Health services</a></li>
+              <li>
+                <a class="dropdown-item" href="../contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div style="padding-right: 50px">Mayor</div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <section>
+      <div class="image-container">
+        <img
+          style="width: 100%; height: 467px; border-radius: 6px"
+          src="../assets/trenton.png"
+        />
+      </div>
+    </section>
+
+    <div class="grid-Container">
+      <article>
+        <div class="vstack gap-3">
+          <div class="p-2"><a href="../contact.html">Contact Us</a></div>
+          <div class="p-2"><a href="">Mayor's Office</a></div>
+          <div class="p-2"><a href="">City Services</a></div>
+        </div>
+      </article>
+      <div>
+        <!--   the city’s population
+
+  the year the city was incorporated
+
+  the region of the state in which the city is located
+
+the classification of the city: urban, suburban, and/or rural
+
+ the average income level of the city compared to the rest of the state -->
+        <h2>History</h2>
+
+        <div class="p-2">
+          Trenton is the capital city of the U.S. state of New Jersey and the
+          seat of Mercer County. It was the capital of the United States from
+          November 1 until December 24, 1784. Trenton
+          <span>was founded in 1719 </span>
+          In the 2020 United States census, Trenton was the state's
+          10th-most-populous municipality,with a
+          <span>population of 90,871,</span> an increase of 5,958 (+7.0%) from
+          the 2010 census count of 84,913,[29][30] which in turn had reflected a
+          decline of 490 (-0.6%) from the 85,403 counted in the 2000 census.
+          <br />
+          Trenton is in Mercer County. Living in Trenton offers residents an <span>
+          urban suburban </span> mix feel and most residents rent their homes. In
+          Trenton there are a lot of bars, coffee shops, and parks. <br>
+           The Census
+          Bureau's 2006–2010 American Community Survey showed that (in 2010
+          inflation-adjusted dollars) <span>median household income </span> was
+          $36,601 (with a margin of error of +/− $1,485) and the median family
+          income was $41,491 (+/− $2,778). Males had a median income of $29,884
+          (+/− $1,715) versus $31,319 (+/− $2,398) for females. The per capita
+          income for the city was $17,400 (+/− $571). About 22.4% of families
+          and 24.5% of the population were below the poverty line, including
+          36.3% of those under age 18 and 17.5% of those age 65 or over. <br />
+        </div>
+      </div>
+    </div>
+    <h3>Best Destinations</h3>
+    <div class="list-destinations">
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">New Jersey State Museum</li>
+        <li class="list-group-item">Trenton War Memorial</li>
+        <li class="list-group-item">Old Masonic Temple</li>
+      </ol>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container py-4">
+        <div class="row py-4">
+          <div class="col-lg-4">
+            <h4>City of Trenton</h4>
+           
+            <section class="social">
+              <ul class="list-unstyled d-flex">
+                <!-- open link other tab -->
+                <a
+                  class="social bi bi-facebook px-2"
+                  href="https://www.facebook.com/NJGov/"
+                  target="_blank"
+                ></a>
+              </ul>
+            </section>
+          </div>
+          <div class="col-lh-3 0ffset col-md-3 col-sm-4 col-11 mb-2">
+            <h5 class="pb-4 d-sm-block">QUICK LINKS</h5>
+            <p class="link"><i class="bi bi-arrow-right-short"></i> About Us</p>
+            <p class="link"><i class="bi bi-arrow-right-short"></i> FAQ</p>
+            <p class="link">
+              <i class="bi bi-arrow-right-short"></i> Privacy policy
+            </p>
+            <p class="link">
+              <i class="bi bi-arrow-right-short"></i> Terms & Conditions
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="pb-4 d-sm-block">CONTACT US</h5>
+            <p class="pt-2">
+              <i class="bi bi-envelope-at"></i> informationNj@gov.com
+            </p>
+            <!-- FLOAT PROPERTY ELEMENT -->
+            <img
+              style="float: right"
+              height="100px"
+              src="../assets/greyNJ.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+        <p>© 2024 Domenic Arias, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
