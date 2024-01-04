@@ -7,7 +7,6 @@
 
 }
 
-
 header {
     background-color: hsl(238, 88%, 44%);
     font-size: 10px;
@@ -30,7 +29,7 @@ ul {
 }
 
 
-
+/* font use */
 .section-container h1 {
     font-family: 'Kaushan Script', cursive;
     color: white;
@@ -84,7 +83,7 @@ form {
 
 
 }
-
+/* id  */
 #Cities{
     height: 50%;
 }
@@ -102,13 +101,14 @@ form {
     padding-left: 15%;
 }
 
+/* id */
 #cities{
     display:flex;
     
 }
 
 
-
+/* table 3 col 3 rows */
 .table {
     display: flex;
     flex-direction: column;
@@ -139,6 +139,8 @@ footer {
     color: white;
 
 }
+
+/* hover */
 
 .social:hover {
     color: rgb(0, 255, 81);
