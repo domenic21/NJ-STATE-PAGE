@@ -150,3 +150,10 @@ footer {
     color: rgb(0, 255, 81);
 }
 
+/*  float element */
+.float-img {
+    float: right;
+
+    height: 100px;
+  }
+   
